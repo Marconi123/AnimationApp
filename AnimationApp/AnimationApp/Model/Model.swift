@@ -20,7 +20,7 @@ struct AnimationModel {
 }
 
 func randomNumber() -> CGFloat {
-    let number = round(CGFloat(Float.random(in: 0.1...3.0)))
+    let number = round(CGFloat(Float.random(in: 1.0 ... 3.0)))
     return number
 }
 
